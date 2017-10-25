@@ -16,4 +16,4 @@ Herramientas a utilizar:
 Vista Previa:
 ----
 
-![VISTA-PREVIA]()
+![VISTA-PREVIA](https://raw.githubusercontent.com/NatalyCortez/nuestras-coders/master/assets/img/Captura.JPG)
