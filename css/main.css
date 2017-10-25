@@ -1,23 +1,41 @@
+/*utilizamos una etiqueta universal para aplicar ciertos estilos en toda la página*/
 * {
+  /*indicamos la fuente que queremos utilizar para todos los textos*/
   font-family: monospace;
+  /*indicamos el tamaño de la fuente que usaremos*/
   font-size: 15px;
+  /*con esta propiedad indicamos que queremos que el padding y el border este dentro del tamaño establecido*/
   box-sizing: border-box;
+  /*indicamos que queremos que los textos esten en negrita*/
   font-weight: 600;
 }
+/*seleccionamos la clase coders donde estan nuestra imágenes*/
 .coders {
+  /*indicamos que las imágenes floten a la izquierda*/
   float: left;
+  /*desplaza las imágenes respecto de su posición original */
   position: relative;
+  /*configuramos el margen que separará una imágen de otra*/
   margin :0px 20px 20px 0px;
+  /*indicamos que las imágenes tendran cierta opacidad*/
   opacity: 0.8;
 }
+/*mediante el selector de clase,seleccionamos la imagen cuatro */
 .four {
+/*indicamos que lado de nuestra foto no debe ser adyacente a otro*/
   clear: left;
 }
-.left {
+/*seleccionamos los nombres para darle estilo*/
+.names {
+  /*configuramos la posición que es influeciada por la posicion de los elementos anteriores  */
   position: absolute;
+  /*indicamos que el elemnto se posicione mas abajo*/
   top :130px;
+  /*indicamos que el elemento se posicione mas a la derecha*/
   left: 8px;
+  /*seleccionamos el color de texto*/
   color: #fff;
+  /*configuramos un borde sombreado suave para el texto*/
   text-shadow:  -2px -2px 1px #000;
 }
 .coders:hover{
